@@ -17,4 +17,3 @@ df['composer'] = df['composer'].apply(lambda x: x.get('complete_name'))
 
 df.to_csv('classicalmusic.csv', index = False)
 classicalmusic = pd.read_csv('classicalmusic.csv')
-classicalmusic
